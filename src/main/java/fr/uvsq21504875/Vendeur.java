@@ -5,7 +5,7 @@ public class Vendeur extends Employe {
 
     public Vendeur(int commission, int anciennete){
         super(anciennete);
-        this.anciennete=anciennete;
+        this.commission=commission;
     }
 
     @Override

@@ -5,7 +5,7 @@ public class Manager extends Employe{
 
     public Manager(int NbPersonnesDirigees, int anciennete){
         super(anciennete);
-        this.anciennete=anciennete;
+        this.NbPersonnesDirigees=NbPersonnesDirigees;
     }
 
     @Override
